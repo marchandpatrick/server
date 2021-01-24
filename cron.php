@@ -101,7 +101,7 @@ try {
 			echo "Console has to be executed with the user that owns the file config/config.php" . PHP_EOL;
 			echo "Current user id: " . $user . PHP_EOL;
 			echo "Owner id of config.php: " . $configUser . PHP_EOL;
-			exit(1);
+#			exit(1);
 		}
 
 
